@@ -10,7 +10,7 @@
 [5. Logistic Regression](https://github.com/stellakang/deeplearning-study/blob/master/online-lecture/sungkim/lecture/lec5.md)
 ## [Practice](https://github.com/stellakang/deeplearning-study/blob/master/online-lecture/sungkim/practice)  
 
-Using pyenv & anaconda & jupyter notebook. 
+Using pyenv & anaconda & jupyter notebook.  
 pyenv version : anaconda3-5.2.0  
 anaconda virtual environment name : ten  
 jupyter notebook kernel name : practice  
