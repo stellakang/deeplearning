@@ -24,17 +24,16 @@ classification 알고리즘 중에서 정확도가 높은 중요한 알고리즘
   
   
   **cost(H(x), b)**  
-  y=1일때: -log(H(x))   
-  y=0일때: -log(1-H(x))    
+  y=1: -log(H(x))   
+  y=0: -log(1-H(x))    
   
   그래프를 그려보면 y=1일 때에는 가설이 0에 가까울수록 cost가 커지고  
   y=0일 때에는 가설이 1에 가까울수록 cost가 커지도록 한다.  
-
-  하나로 나타내면!  
+  
   Cost(W) = avg(sum(c(H(x),y)))  
   c(H(x), y) = -ylog(H(x))-(1-y)log(1-H(x))  
   
-- 과정  
-  - hypothesis 구하기  
-  - cost function 계산  
-  - gradient descent algorithm을 이용하여 update  
+- Process  
+  - Get hypothesis  
+  - Get cost function    
+  - update weight using gradient descent algorithm.  
